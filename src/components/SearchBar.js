@@ -36,7 +36,7 @@ const SearchBar = () => {
   
     const debounceFunc = debounce(function(val) {
       getSearchData(val);
-    }, 1000);
+    }, 100);
     return(
       <>
         <SearchInput handleSearch = {debounceFunc} />
