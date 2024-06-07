@@ -34,7 +34,7 @@ const BooksSection = () => {
             searchData && searchData.length > 0 ?
             searchData.map((book) => {
                 return(
-                <div className='shadow-lg text-lg space-y-2 p-4 bg-[#b2dfdb] rounded-lg '>
+                <div className='shadow-lg text-lg space-y-2 p-4 bg-[#b2dfdb] rounded-lg h-full'>
                     <h1>Name : <span className='font-bold'>{book.title}</span></h1>
                     <h1>Author : <span className='font-bold'>{book.author_name}</span></h1>
                     <h1>Edition count : <span className='font-bold'>{book.edition_count}</span></h1>
