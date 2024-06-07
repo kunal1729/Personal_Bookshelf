@@ -29,7 +29,7 @@ const BooksSection = () => {
     const {searchData} = useContext(BooksContext);
     if(!searchData)
     {
-      return null:
+      return null;
     }
     return (
         <div className='w-[80%] md:space-y-0 mx-auto mt-10 p-8 min-h-screen rounded-lg border-2 border-black grid grid-cols-1 gap-8 lg:grid-cols-3 md:grid-cols-2'>
