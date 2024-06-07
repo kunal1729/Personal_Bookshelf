@@ -101,7 +101,7 @@ export const BooksProvider = ({children}) => {
         {
             setSavedData([]);
         }
-    }, [allSavedBooks])
+    }, [allSavedBooks, getSavedData])
 
     return(
         <BooksContext.Provider value={{searchData , getSearchData, saveBook, unsaveBook,allSavedBooks, savedData , setSavedData}}>
