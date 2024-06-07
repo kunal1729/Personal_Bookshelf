@@ -21,7 +21,7 @@ const SearchInput = ({handleSearch}) => {
         <form  className=' w-[50%] relative items-center text-center flex mx-auto '>
             <input value={search} onChange={handleInput} className=' focus:border-black border-2 w-full rounded-lg' placeholder='Search books...' type="text" />
             <button type='submit' >
-                <svg className=' text-black absolute bottom-2 right-2 w-6 h-6' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" >
+                <svg className=' text-black absolute bottom-2 hide right-2 w-6 h-6' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" >
                     <path stroke-linecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                 </svg>
             </button>
