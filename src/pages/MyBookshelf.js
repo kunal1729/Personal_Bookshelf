@@ -33,6 +33,9 @@ const MyBookshelf = () => {
   {
     nav('..');
   }
+  if (!savedData) {
+    return null; 
+  }
 
   return (
     <div className='mt-10 p-4'>
